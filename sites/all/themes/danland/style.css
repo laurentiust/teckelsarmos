@@ -38,6 +38,11 @@ a:hover {
 color:#0074BD;
 }
 
+.views-field .field-content a:hover {
+font-size: 12px;
+    font-weight: bold;
+}
+
 blockquote {
 background: url(images/bq-tl.gif) no-repeat left top;
 padding-left: 30px;
@@ -201,8 +206,8 @@ margin-bottom: 35px;
 float:left;
 /*background:url(images/menu-separator.gif) no-repeat right top;*/
 height:35px;
-padding:0 1px 0 0;
-border: 1px solid #686868;
+padding:1px;
+border: 1px solid #cccccc;
 border-radius: 20px;
 margin-left: 15px;
 }
@@ -210,8 +215,8 @@ margin-left: 15px;
 #nav li a{
 color:#000000;
 text-decoration:none;
-font-size:13px;
-padding: 7px 15px 0 15px;
+font-size:12px;
+padding: 9px 17px 0 17px;
 display:inline-block;
 font-weight:bold;
 height:25px;
@@ -667,6 +672,7 @@ border-radius: 5px;
 #sidebar-right .content {
 padding: 5px 15px;
 border: 1px solid #ccc;
+border-radius: 10px;
 }
 
 .sidebar .block {
@@ -1545,11 +1551,87 @@ list-style-image:none;
 }
 
 .content-image-center {
-    text-align: center;
-    margin-top: 75px;
+text-align: center;
+margin-top: 75px;
 }
 
 .content-image-center img{
-    float: none!important;
+float: none!important;
 }
 
+.field-collection-view {
+padding: 0;
+margin: 0 1em 0 1em;
+border-bottom: none;
+}
+
+.field-collection-container {
+border-bottom: none ;
+margin-bottom: 0;
+}
+
+.field-collection-container .field-items .field-item {
+margin-bottom: 0;
+}
+
+.field-collection-view .field-collection-item-field-rezultate .content {
+margin-bottom: 2px;
+}
+
+.field-collection-view .field-collection-item-field-mentiuni-speciale .content {
+margin-bottom: 2px;
+}
+
+.node-caini .content {
+font-family: lucida sans unicode,lucida grande,sans-serif;
+font-size: 12px;
+margin-left: 10px;
+line-height: 17px;
+}
+
+li a.active {
+color: #0080CC;
+font-weight: bold;
+}
+
+#nav li a.active {
+color: #0080CC;
+font-weight: bold;
+}
+
+.view-id-our_dogs .active{
+    color: #0080CC;
+    font-weight: bold;
+}
+
+.content table {
+    margin-left: 70px;
+    border-collapse: inherit;
+}
+.content table tr td{
+    border: none;
+}
+
+.content .entity-field-collection-item {
+    margin-bottom: -10px;
+}
+.content .field-name-field-rezultat {
+    float: left;
+    margin-right: 10px;
+}
+
+.view-id-our_dogs .view-content table {
+    margin-left: 0;
+}
+
+.view-display-id-block_1 .view-content h3 {
+    font-size: 14px;
+}
+
+.view-display-id-block_1 .view-content .views-field-title {
+    margin-left: 20px;
+}
+
+.field-name-field-imagini-caini {
+    margin-top: 20px;
+}
