@@ -711,6 +711,14 @@ text-align:center;
 margin-bottom: -10px;
 }
 
+#notice .credits {
+  margin-top: -20px;
+}
+
+#notice .credits a{
+    color: #29ACE5;
+}
+
 table {
 width:100%;
 }

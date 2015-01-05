@@ -218,5 +218,8 @@
 </div> <!-- end footer wrapper -->
 
 <div style="clear:both"></div>
-<div id="notice"><p>TeckelSarmos ® 2013 </p></div>
+<div id="notice">
+  <p class="copyright"> <?php print t('Copyright '); ?> &copy; <?php echo date("Y") . ' www.teckelsarmos.ro';?> </p>
+  <p class="credits"> <?php print t('Designed and developed by'); ?>  <a href="http://www.netit.ro" target="_blank">NetIT®</a></p>
+</div>
 </div>
